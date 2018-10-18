@@ -1,0 +1,31 @@
+#First line in config where first arg is task count, second arg is ASSIGNEMENT instruction time units,
+#third arg is PRINT  insruction time units, fourth arg is LOCK  instruction time units,
+#fifth arg id UNLOCK instruction time units, sixth arg is END task  instruction time units 
+#and seventh in task AUANTUM.
+3 1 1 1 1 1 1
+a = 4
+print a
+lock
+b = 9
+print b
+unlock
+print b
+end
+a = 3
+print a
+lock
+b = 8
+print b
+unlock
+print b
+end
+b = 5
+a = 17
+print a
+print b
+lock
+b = 21
+print b
+unlock
+print b
+end
